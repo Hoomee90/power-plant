@@ -15,3 +15,14 @@ export const changeState = (prop) => {
     })
   }
 }
+
+export const stateControl = storeState();
+
+export const changeStateFunctions = {
+  feed: changeState("soil")(1),
+  water: changeState("water")(1),
+  spotlight: changeState("light")(1),
+  megaFeed: changeState("soil")(5),
+  superWater: changeState("water")(5),
+  floodlight: changeState("light")(5)
+}
