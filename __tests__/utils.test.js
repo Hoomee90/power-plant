@@ -1,4 +1,4 @@
-import { storeState, changeState } from '../src/js/plant.js';
+import { storeState, changeState } from '../src/js/utils.js';
 
 describe('storeState', () => {
   let stateControlTest;
