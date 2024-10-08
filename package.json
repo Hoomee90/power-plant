@@ -2,7 +2,7 @@
   "name": "power-plant",
   "version": "1.0.0",
   "description": "grow a plant",
-  "license": "MIT",
+  "license": "AGPL-3.0-or-later",
   "author": "Samantha Callie",
   "main": "index.js",
   "scripts": {
